@@ -1,5 +1,6 @@
 .App {
   display: flex;
+  flex: 1;
   position:relative;
   flex-direction: column;
   text-align: center;
@@ -93,10 +94,5 @@ text-decoration: underline;
 }
 
 .imageContainer {
-  width: 33%;
-  margin: 0 auto;
-}
-
-.imageContainer > img {
-width:100%
+  width: 100%;
 }

@@ -1,5 +1,5 @@
 import './App.css';
-import { AppBar, Container, Box, Toolbar, TableFooter, Grid } from '@mui/material';
+import { AppBar, Container, Box, Toolbar, TableFooter, Grid, Typography, Link } from '@mui/material';
 
 
 
@@ -18,35 +18,61 @@ function App() {
         </AppBar>
       </header> */}
 
-      <Container>
+      <Container maxWidth={false} disableGutters={true}>
+
+        <Grid container sx={{ border: '1px solid blue' }}>
+          
+          <Grid container>
+
+            <Grid item xs={12}>
+              <Typography variant='h2'>
+                Dummy thicc content
+              </Typography>
+            </Grid>
+            
+            <Grid item xs={12}>
+              <Typography variant='h4'>
+                Caked up in 4k
+              </Typography>
+            </Grid>
+          
+          </Grid>
+
+          <Grid container justifyContent='center'>
+
+            <Grid item xs={1} justifyContent='right'>
+              <Link href='#' underline='hover'>
+                <Typography variant='h4'>
+                  Pics
+                </Typography>
+              </Link>
+            </Grid>
+
+            <Grid item xs={1}>
+              <Link href='#' underline='hover'>
+                <Typography variant='h4'>
+                  Vids
+                </Typography>
+              </Link>
+            </Grid>
+
+          </Grid>
+
+          <Grid container>
+            <img className='imageContainer' src='https://fantasyinmotion.files.wordpress.com/2014/01/dark-soul-witch-fantasy-353840.jpg' />
+          </Grid>
+
+        </Grid>
+
+      </Container>
 
 
-
-        {/* <Container class="home-page-content">
+      {/* <Container class="home-page-content">
           <img src="https://static2.cbrimages.com/wordpress/wp-content/uploads/2020/08/dungeons-and-dragons-bard-2.jpg?q=50&fit=crop&w=943&h=500&dpr=1.5" />
           </Container>
           <Container class="home-page-content">
           <img src="https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/01/paladin-cover.jpg?q=50&fit=contain&w=943&h=500&dpr=1.5" />
         </Container> */}
-      </Container>
-
-      <div className="heroContainer">
-
-        <div className="content">
-          <h2 className="title">Dummy thiccc content</h2>
-          <h4 className="subtitle">Caked up in 4k</h4>
-          <div className="buttons">
-            <a href="" className="btn">Pics</a>
-            <a href="" className="btn">Vids</a>
-          </div>
-        </div>
-        <div className="imageContainer">
-          <img src="https://i.pinimg.com/originals/b5/fb/ab/b5fbabd0a353494b926e1014e46599bc.png" />
-        </div>
-        {/* <img src='https://fantasyinmotion.files.wordpress.com/2014/01/dark-soul-witch-fantasy-353840.jpg' /> */}
-      </div>
-
-
 
       {/* <Container>
         <Grid container rowspacing={4} columspacing={0}>
