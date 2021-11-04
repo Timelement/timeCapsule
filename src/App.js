@@ -18,17 +18,63 @@ function App() {
         </AppBar>
       </header> */}
 
-      <Container>
+      <Container maxWidth={false} disableGutters={true}>
+
+        <Grid container sx={{ border: '1px solid blue' }}>
+          
+          <Grid container>
+
+            <Grid item xs={12}>
+              <Typography variant='h2'>
+                Dummy thicc content
+              </Typography>
+            </Grid>
+            
+            <Grid item xs={12}>
+              <Typography variant='h4'>
+                Caked up in 4k
+              </Typography>
+            </Grid>
+          
+          </Grid>
+
+          <Grid container justifyContent='center'>
+
+            <Grid item xs={1} justifyContent='right'>
+              <Link href='#' underline='hover'>
+                <Typography variant='h4'>
+                  Pics
+                </Typography>
+              </Link>
+            </Grid>
+
+            <Grid item xs={1}>
+              <Link href='#' underline='hover'>
+                <Typography variant='h4'>
+                  Vids
+                </Typography>
+              </Link>
+            </Grid>
+
+          </Grid>
+
+          <Grid container>
+            <img className='imageContainer' src='https://fantasyinmotion.files.wordpress.com/2014/01/dark-soul-witch-fantasy-353840.jpg' />
+          </Grid>
+
+        </Grid>
+
+      </Container>
 
 
-
-        {/* <Container class="home-page-content">
+      {/* <Container class="home-page-content">
           <img src="https://static2.cbrimages.com/wordpress/wp-content/uploads/2020/08/dungeons-and-dragons-bard-2.jpg?q=50&fit=crop&w=943&h=500&dpr=1.5" />
           </Container>
           <Container class="home-page-content">
           <img src="https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/01/paladin-cover.jpg?q=50&fit=contain&w=943&h=500&dpr=1.5" />
         </Container> */}
-      </Container>
+
+  </Container>
 
       <Grid container direction={'column'} sx={{ border: '1px solid red' }}>
           <Grid item xs={3} sx={{ border: '1px solid green' }}>
@@ -108,7 +154,6 @@ function App() {
         </div>
         
       </div>
-
 
 
       {/* <Container>
