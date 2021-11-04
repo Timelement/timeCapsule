@@ -74,6 +74,88 @@ function App() {
           <img src="https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/01/paladin-cover.jpg?q=50&fit=contain&w=943&h=500&dpr=1.5" />
         </Container> */}
 
+  </Container>
+
+      <Grid container direction={'column'} sx={{ border: '1px solid red' }}>
+          <Grid item xs={3} sx={{ border: '1px solid green' }}>
+              <Typography>Grid Container 1 Item 1</Typography>
+            </Grid>
+
+            <Grid item xs={6} sx={{ border: '1px solid purple'}}>
+                <Typography>Grid container 1 Item 2</Typography>
+              </Grid>
+            
+              <Grid item xs={3} sx={{ border: '1px solid orange' }}>
+                  <Typography>Grid container 1 Item 3</Typography>
+                </Grid>
+        
+        </Grid>
+      <Grid container sx={{ border: '1px solid blue'}}>
+          <Grid item>
+              <Typography>Grid Container 2 Item 1</Typography>
+            </Grid>
+        </Grid>
+
+      <div className="heroContainer">
+
+        <div className="content">
+          <Typography>
+          <h2 className="title">Dummy thiccc content</h2>
+          <h4 className="subtitle">Caked up in 4k</h4>
+          </Typography>
+          <div className="buttons">
+            <a href="" className="btn">Pics</a>
+            <a href="" className="btn">Vids</a>
+          </div>
+        </div>
+        <div className="imageContainer">
+          <img src="https://fantasyinmotion.files.wordpress.com/2014/01/dark-soul-witch-fantasy-353840.jpg" />
+        </div>
+
+      </div>
+
+      <Container className="heroContainer">
+
+        <Container className="content">
+          <Typography variant="h2">
+          Dummy thiccc content
+          </Typography>
+          <Typography variant='h4'>
+          Caked up in 4k
+          </Typography>
+
+          <Container className="buttons">
+          
+           <Link href="#" underline='hover' className='btn'>Pics</Link>
+          
+            <Link href="#" underline='hover' className="btn">Vids</Link>
+          </Container>
+        </Container>
+        <Container className="imageContainer">
+          <img src="https://static2.cbrimages.com/wordpress/wp-content/uploads/2020/08/dungeons-and-dragons-bard-2.jpg?q=50&fit=crop&w=943&h=500&dpr=1.5" />
+        </Container>
+        
+      </Container>
+
+      <div className="heroContainer">
+
+        <div className="content">
+          <Typography>
+          <h2 className="title">Dummy thiccc content</h2>
+          <h4 className="subtitle">Caked up in 4k</h4>
+          </Typography>
+          <div className="buttons">
+            <a href="" className="btn">Pics</a>
+            <a href="" className="btn">Vids</a>
+          </div>
+        </div>
+        <div className="imageContainer">
+          <img src="https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/01/paladin-cover.jpg?q=50&fit=contain&w=943&h=500&dpr=1.5" />
+        </div>
+        
+      </div>
+
+
       {/* <Container>
         <Grid container rowspacing={4} columspacing={0}>
         <Container class="home-page-content2">
