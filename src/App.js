@@ -23,7 +23,6 @@ function App() {
         <Grid container>
           
           <Grid container>
-
             <Grid item xs={12}>
               <Typography variant='h2'>
                 Dummy thicc content
@@ -39,7 +38,6 @@ function App() {
           </Grid>
 
           <Grid container justifyContent='center'>
-
             <Grid item xs={1} justifyContent='right'>
               <Link href='#' underline='hover'>
                 <Typography variant='h4'>
@@ -183,6 +181,7 @@ function App() {
       
 
       </Container>
+
 
       {/* <Container>
         <Grid container rowspacing={4} columspacing={0}>
