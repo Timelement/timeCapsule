@@ -23,7 +23,6 @@ function App() {
         <Grid container>
           
           <Grid container>
-
             <Grid item xs={12}>
               <Typography variant='h2'>
                 Dummy thicc content
@@ -39,7 +38,6 @@ function App() {
           </Grid>
 
           <Grid container justifyContent='center'>
-
             <Grid item xs={1} justifyContent='right'>
               <Link href='#' underline='hover'>
                 <Typography variant='h4'>
@@ -121,6 +119,7 @@ function App() {
           <Container class="home-page-content">
           <img src="https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/01/paladin-cover.jpg?q=50&fit=contain&w=943&h=500&dpr=1.5" />
         </Container> */}
+
 
       {/* <Container>
         <Grid container rowspacing={4} columspacing={0}>
